@@ -10,7 +10,7 @@ export default function PopularCarList() {
   const popularCars = cars.slice(0, 4);
 
   return (
-    <div className="w-full px-4 md:px-6 lg:px-8 md:max-w-[92%]  mx-auto my-8">
+    <div className=" mx-auto max-w-[1440px]  my-8 flex flex-col align-middle justify-center ">
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-[#90A3BF] text-xl">Popular Car</h2>
         <button className="text-blue-600 text-sm font-semibold">

@@ -10,7 +10,7 @@ export default function Filter() {
   const [dropTime, setDropTime] = useState("01:00");
 
   return (
-    <div className="w-full max-w-[92%] mx-auto px-4 md:px-8 relative ">
+    <div className="w-full max-w-[1440px] mx-auto px-12 relative ">
       <div className="flex flex-col md:flex-row md:items-center md:space-x-4">
         {/* Pick-Up Section */}
         <div className="flex-1 mb-6 md:mb-0 bg-white rounded-2xl p-6">
